@@ -20,14 +20,14 @@
       <item>
        <widget class="QPushButton" name="assignment1Btn">
         <property name="text">
-         <string>Assignment 1</string>
+         <string>Assignment 3</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="assignment2Btn">
         <property name="text">
-         <string>Assignment 2</string>
+         <string>Assignment 4</string>
         </property>
        </widget>
       </item>

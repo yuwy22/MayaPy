@@ -14,20 +14,40 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>439</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
    <item row="0" column="0">
     <widget class="QWidget" name="controlsBox" native="true">
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>Assignment 1</string>
+         <string>Assignment 3</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="exampleBtn">
         <property name="text">
-         <string>Make a Cylinder</string>
+         <string>make one bubble</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="example2Btn">
+        <property name="text">
+         <string>make more bubbles</string>
         </property>
        </widget>
       </item>
@@ -53,19 +73,6 @@
       </item>
      </layout>
     </widget>
-   </item>
-   <item row="0" column="1">
-    <spacer name="horizontalSpacer">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>439</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>
